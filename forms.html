@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>froms</title>
+</head>
+
+<body>
+    <form action="register.php" method="get|post" autocomplete="on">
+        <!-- form è il parent element -->
+        <!-- method indica il metodo con cui verranno passati i dati -->
+        <!-- action indica l'azione che effettuerà il form all'invio -->
+        <!-- autocomplete indica se il riempimento automatico è permesso o no -->
+        <fieldset>
+            <legend>Anagrfica</legend>
+            <label for="username">User name</label>
+            <input type="text" name="username" id="username">
+            <br>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
